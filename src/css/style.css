@@ -1,0 +1,44 @@
+body {
+  margin-top: 83px; }
+
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  background: #fff;
+  opacity: 0.9; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 20px; }
+    .navbar .nav-item .nav-link:hover {
+      color: #3292a6; }
+  .navbar .navbar-item:last-child {
+    padding-right: none; }
+
+#home-section {
+  background: url(../img/mount.jpg) no-repeat left top;
+  background-size: cover;
+  min-height: 600px; }
+  #home-section .primary-overlay {
+    background: rgba(50, 146, 156, 0.7);
+    min-height: 600px; }
+
+#subscribe {
+  background: #252525; }
+  #subscribe .form-group {
+    margin-bottom: 0; }
+
+#accordion a {
+  color: black; }
+
+#authors img {
+  margin-top: -60px; }
+
+#authors .fa {
+  font-size: 25px; }
+
+#authors .card-body:hover {
+  background: #3292a6;
+  color: #fff; }
+
+@media (max-width: 576px) {
+  #home-section h1 {
+    font-size: 4rem; } }
